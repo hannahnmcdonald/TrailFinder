@@ -3,6 +3,8 @@ body {
   background-image: url("https://images.pexels.com/photos/4993107/pexels-photo-4993107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
   font-family: smoothy,sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -45,3 +47,31 @@ h1 {
 .form-control{
   border-radius: 1rem;
 }
+
+@media only screen and (max-width: 1000px) {
+  .input-group {
+    width: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    padding: 20px 20px 20px 20px;
+  }
+  
+}
+
+/* @media only screen and (max-width: 760px) {
+  body {
+    background-image: url("https://images.pexels.com/photos/2629233/pexels-photo-2629233.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  }
+}
+
+@media only screen and (max-width: 658px) {
+  body {
+    background-image: url("https://images.pexels.com/photos/2629233/pexels-photo-2629233.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  }
+} */
