@@ -5,16 +5,17 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
-    font-family: smoothy,sans-serif;
+    font-family: farm-new,sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
   
   .navbar {
     padding: 10px 10px 10px 10px;
     font-family: farm-new,sans-serif;
     font-weight: 300;
     font-style: normal;
+    position: sticky;
   }
   
   .btn {
@@ -72,7 +73,53 @@ body {
     font-weight: 300;
     font-style: normal;
   } */
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 10px 10px 10px;
+    border-radius: 1rem;
+    background: rgb(255,255,255,0.55);
+    width: 50%;
+    margin: 20px 20px 20px 20px;
+    margin-right: 0px;
+}
+
+.card{
+    padding: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 1rem;
+    background: rgb(255,255,255);
+}
+
+.card-header{
+    font-size: 20px;
+    font-family: farm-new,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 10px 10px 10px 10px;
+    background-color: transparent;
+}
+
+.card:hover{
+    cursor: pointer;
+    transition: transform 150ms;
+    transform: scale(1.01);
+}
   
+.bar {
+    display: flex;
+    flex-direction: row;
+    font-family: farm-new,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    border-radius: 1rem;
+    background-color: rgb(255,255,255,0.55);
+    font-size: 35px;
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+}
   @media only screen and (max-width: 1000px) {
     .input-group {
       width: auto;

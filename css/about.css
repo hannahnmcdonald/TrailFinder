@@ -5,8 +5,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
-    font-family: smoothy,sans-serif;
-    font-weight: 400;
+    font-family: farm-new,sans-serif;
+    font-weight: 300;
     font-style: normal;
   }
   
@@ -15,6 +15,7 @@ body {
     font-family: farm-new,sans-serif;
     font-weight: 300;
     font-style: normal;
+    position: sticky;
   }
   
   .btn {

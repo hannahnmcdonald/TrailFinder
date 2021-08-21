@@ -5,8 +5,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
-  font-family: smoothy,sans-serif;
-  font-weight: 400;
+  font-family: farm-new,sans-serif;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -15,12 +15,17 @@ body {
   font-family: farm-new,sans-serif;
   font-weight: 300;
   font-style: normal;
+  position: sticky;
 }
 
 .btn {
-  background-color: rgba(64, 107, 74, 0.35);
+  background-color: rgba(64, 107, 74, 0.55);
   border: none;
   border-radius: 1rem;
+  font-size: 20px;
+  font-family: smoothy,sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .btn:hover{
@@ -44,6 +49,7 @@ h1 {
   border-radius: 1rem;
   background-color: rgb(255,255,255, 0.8);
 }
+
 
 .form-control{
   border-radius: 1rem;
